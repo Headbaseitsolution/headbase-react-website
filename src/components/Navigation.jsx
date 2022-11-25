@@ -10,7 +10,7 @@ function Navigation() {
             <div className="nav-logo">
               <Link to="/">
                 <img
-                  src="https://via.placeholder.com/160x80"
+                  src="https://www.headbase.tech/wp-content/uploads/2021/12/logo.svg"
                   alt="white-logo"
                 />
               </Link>

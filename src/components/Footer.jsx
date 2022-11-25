@@ -1,13 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import background from "assets/images/footer-background.svg";
 
 const Footer = () => {
   return (
     <div>
       <footer
         className="footer-section"
-        style={{ backgroundImage: `url(${background})` }}
+        style={{
+          backgroundImage: `url(./assets/images/footer-background.svg)`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center center",
+        }}
       >
         <div className="container">
           <div className="footer-blocks">
@@ -56,13 +60,15 @@ const Footer = () => {
                 <h4>Contact Us</h4>
                 <ul className="footer-links">
                   <li>
-                    <Link to="/">+91 781 994 2899</Link>
+                    <a href="tel:+91 781 994 2899">+91 781 994 2899</a>
                   </li>
                   <li>
-                    <Link to="/">+91 886 622 5674</Link>
+                    <a href="tel:+91 886 622 5674">+91 886 622 5674</a>
                   </li>
                   <li>
-                    <Link to="/">headbase.tech@gmail.com</Link>
+                    <a href="mailto:headbase.tech@gmail.com">
+                      headbase.tech@gmail.com
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -79,20 +85,45 @@ const Footer = () => {
                 <div className="social-links">
                   <ul className="social-media">
                     <li>
-                      <img src="assets/images/linkedin.svg" alt="linked-In" />
+                      <a
+                        href="https://www.linkedin.com/company/headbase-it-solution/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img src="assets/images/linkedin.svg" alt="linked-In" />
+                      </a>
                     </li>
                     <li>
-                      <img src="assets/images/facebook.svg" alt="facebook" />
+                      <a
+                        href="https://www.facebook.com/Headbaseitsolution"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img src="assets/images/facebook.svg" alt="facebook" />
+                      </a>
                     </li>
                     <li>
-                      <img src="assets/images/instagram.svg" alt="instagram" />
+                      <a
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          src="assets/images/instagram.svg"
+                          alt="instagram"
+                          rel="noreferrer"
+                        />
+                      </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
             <div className="bottom-footer">
-              <img src="https://via.placeholder.com/160x80" alt="footer-logo" />
+              <img
+                src="https://www.headbase.tech/wp-content/uploads/2021/12/logo.svg"
+                alt="footer-logo"
+              />
               <p>&copy; Copyright 2021. Headbase IT Solution</p>
             </div>
           </div>
