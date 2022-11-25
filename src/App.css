@@ -154,6 +154,14 @@ img {
 .navbar .nav-btn {
   display: none;
 }
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  margin: 0 auto;
+}
 
 /* Slider */
 .item {
@@ -402,6 +410,139 @@ img {
 }
 .counter-block p {
   text-align: center;
+}
+
+/* About Us */
+.bg-image3 {
+  background-image: url(https://www.headbase.tech/wp-content/themes/headbase/images/about-us-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 90vh;
+}
+.about-us {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 100px;
+  align-items: center;
+}
+.about-us h1 {
+  color: var(--white);
+}
+.digital {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+.digital .digital-link {
+  color: var(--color-primary);
+}
+
+/* Our Working Process */
+.process {
+  padding: 50px 0px;
+}
+.process-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+.process-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.process-head h2 {
+  margin: 0;
+  font-size: 55px;
+}
+.process-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.process-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.process-img {
+  width: 50%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.ab-line {
+  position: absolute;
+  bottom: -200px;
+  right: -200px;
+}
+.process-content {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  text-align: left;
+}
+.process-content span {
+  color: #1d3dfb;
+  font-size: 18px;
+}
+.process-content h3 {
+  font-size: 40px;
+  margin: 0;
+}
+.process-content ul {
+  padding-left: 18px;
+  margin: 0;
+}
+.process-box-reverse .process-img {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+.process-box-reverse .ab-line {
+  right: auto;
+  left: -200px;
+}
+.blue-link {
+  text-decoration: underline;
 }
 
 /* Footer */

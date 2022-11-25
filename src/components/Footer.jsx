@@ -10,7 +10,6 @@ const Footer = () => {
           backgroundImage: `url(./assets/images/footer-background.svg)`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-          backgroundPosition: "center center",
         }}
       >
         <div className="container">
