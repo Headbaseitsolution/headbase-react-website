@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import OurMission from "../components/OurMission";
 
 const Aboutus = () => {
   return (
@@ -105,24 +106,26 @@ const Aboutus = () => {
           </div>
         </div>
       </section>
-      <section className="block process">
+      <section className="process">
         <div className="container">
           <div className="process-part">
             <div className="process-head">
               <h2>Our Working Process</h2>
-              <p>
-                Our goal is to offer range of cost-effective web solutions on
-                the basis of complete transparency and faith. We believe that
-                the progressive attitude of our team combined with the
-                organizational culture which promotes continuous learning
-                ensures consistency in delivery of quality services.
-              </p>
-              <p>
-                We have a transparent project process with clear deliverables,
-                which our clients love. We always try to be open, fair and
-                honest and never blind you with technical jargon or meaningless
-                buzzwords.
-              </p>
+              <div className="process-description">
+                <p>
+                  Our goal is to offer range of cost-effective web solutions on
+                  the basis of complete transparency and faith. We believe that
+                  the progressive attitude of our team combined with the
+                  organizational culture which promotes continuous learning
+                  ensures consistency in delivery of quality services.
+                </p>
+                <p>
+                  We have a transparent project process with clear deliverables,
+                  which our clients love. We always try to be open, fair and
+                  honest and never blind you with technical jargon or
+                  meaningless buzzwords.
+                </p>
+              </div>
             </div>
             <div className="process-sec">
               <div className="process-box">
@@ -215,6 +218,7 @@ const Aboutus = () => {
           </div>
         </div>
       </section>
+      <OurMission />
     </>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import BannerSlider from "../components/BannerSlider";
-import Counter from "../components/Counter";
+import OurMission from "../components/OurMission";
 
 const Home = () => {
   return (
@@ -259,22 +259,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section>
-        <div className="container">
-          <div className="counters">
-            <div className="counter-header">
-              <h2>
-                Our <span>Mission</span>
-              </h2>
-              <p>
-                Our principal is to provide high standard and qualitative IT
-                solutions with 100% satisfactory for our client's business.
-              </p>
-            </div>
-            <Counter />
-          </div>
-        </div>
-      </section>
+      <OurMission />
       <section className="bg-image2">
         <div className="container">
           <div className="different">
