@@ -7,7 +7,7 @@ const Aboutus = () => {
     <>
       <section className="bg-image3">
         <div className="container">
-          <div className="about-us">
+          <div className="breadcrumb">
             <h1>About Us</h1>
             <img
               src="https://www.headbase.tech/wp-content/uploads/2021/12/about-us-banner.svg"
