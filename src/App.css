@@ -574,6 +574,93 @@ img {
   grid-gap: 30px;
 }
 
+/* Contact */
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  font-size: 16px;
+}
+input {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  height: 60px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #242424;
+  margin-bottom: 20px;
+}
+textarea {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  height: 180px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #242424;
+  padding-top: 15px;
+}
+input[type="submit"] {
+  font-family: "Poppins", sans-serif;
+  margin-top: 2rem;
+  cursor: pointer;
+  background: var(--color-primary);
+  color: var(--white);
+  border: none;
+}
+.contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-gap: 70px;
+  align-items: center;
+}
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background: var(--white);
+  border-radius: 40px;
+  padding: 40px;
+  -webkit-box-shadow: 0px 8px 80px -6px rgb(24 39 75 / 5%),
+    0px 18px 100px -4px rgb(24 39 75 / 5%);
+  box-shadow: 0px 8px 80px -6px rgb(24 39 75 / 5%),
+    0px 18px 100px -4px rgb(24 39 75 / 5%);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.contact-box {
+  background: #fbfbfb;
+  border: 1px solid #f2f2f2;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  grid-gap: 30px;
+}
+.box-content h4 {
+  font-weight: 600;
+}
+.contact-information {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  align-items: stretch;
+}
+
 /* Footer */
 footer {
   padding: 400px 15px 20px 15px;

@@ -30,7 +30,7 @@ const Services = () => {
                 <p>
                   We at
                   <Link to="/" className="digital-link">
-                    Headbase It Solution&nbsp;
+                    &nbsp;Headbase It Solution&nbsp;
                   </Link>
                   one of India's fastest growing IT companies focusing on
                   providing IT solutions like graphics designing, responsive web
@@ -46,7 +46,7 @@ const Services = () => {
                 <p>
                   We at
                   <Link to="/" className="digital-link">
-                    Headbase It Solution &nbsp;
+                    &nbsp;Headbase It Solution&nbsp;
                   </Link>
                   provides an exclusive and professional IT solutions for your
                   business. We believe in providing world-class IT services to
