@@ -61,21 +61,21 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <section class="block all-services">
-        <div class="container">
-          <div class="all-services-main">
-            <div class="all-services-box">
-              <div class="all-services-icon">
+      <section className="block all-services">
+        <div className="container">
+          <div className="all-services-main">
+            <div className="all-services-box">
+              <div className="all-services-icon">
                 <img
                   src="https://www.headbase.tech/wp-content/uploads/2021/12/Web_Graphics_Designing.svg"
                   alt="http://web-graphics-design"
                 />
               </div>
-              <div class="all-services-content">
+              <div className="all-services-content">
                 <h3>Web / Graphics Designing</h3>
-                <div class="all-services-sec">
-                  <div class="list-box">
-                    <div class="list-icon">
+                <div className="all-services-sec">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -83,8 +83,8 @@ const Services = () => {
                     </div>
                     <p>Graphics Designing</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -92,8 +92,8 @@ const Services = () => {
                     </div>
                     <p>Responsive Website Designing</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -101,8 +101,8 @@ const Services = () => {
                     </div>
                     <p>Illustration Designing</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -110,8 +110,8 @@ const Services = () => {
                     </div>
                     <p>Photoshop Designing</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -119,8 +119,8 @@ const Services = () => {
                     </div>
                     <p>Logo Designing</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -128,8 +128,8 @@ const Services = () => {
                     </div>
                     <p>Mobile UI / Mockup Designing</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -137,8 +137,8 @@ const Services = () => {
                     </div>
                     <p>Banner / Poster Designing</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -146,8 +146,8 @@ const Services = () => {
                     </div>
                     <p>Business Card / Brochure Designing</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -155,8 +155,8 @@ const Services = () => {
                     </div>
                     <p>Flyer Designing</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -167,18 +167,18 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="all-services-box">
-              <div class="all-services-icon">
+            <div className="all-services-box">
+              <div className="all-services-icon">
                 <img
                   src="https://www.headbase.tech/wp-content/uploads/2021/12/Web_Development.svg"
                   alt="http://web-development"
                 />
               </div>
-              <div class="all-services-content">
+              <div className="all-services-content">
                 <h3>Web Development</h3>
-                <div class="all-services-sec">
-                  <div class="list-box">
-                    <div class="list-icon">
+                <div className="all-services-sec">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -186,8 +186,8 @@ const Services = () => {
                     </div>
                     <p>Static / Dynamic Website</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -195,8 +195,8 @@ const Services = () => {
                     </div>
                     <p>eCommerce Website</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -204,8 +204,8 @@ const Services = () => {
                     </div>
                     <p>Wordpress</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -213,8 +213,8 @@ const Services = () => {
                     </div>
                     <p>Shopify</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -222,8 +222,8 @@ const Services = () => {
                     </div>
                     <p>HTML</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -231,8 +231,8 @@ const Services = () => {
                     </div>
                     <p>Bootstrap Specialists</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -240,8 +240,8 @@ const Services = () => {
                     </div>
                     <p>CSS Specialist</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"
@@ -249,8 +249,8 @@ const Services = () => {
                     </div>
                     <p>Javascript / jQuery / AJAX</p>
                   </div>
-                  <div class="list-box">
-                    <div class="list-icon">
+                  <div className="list-box">
+                    <div className="list-icon">
                       <img
                         src="https://www.headbase.tech/wp-content/themes/headbase/images/right-arrow.svg"
                         alt="right-arrow"

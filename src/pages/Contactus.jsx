@@ -43,7 +43,7 @@ const Contactus = () => {
                     />
                   </div>
                   <div className="box-content">
-                    <h4>WRITE TO US</h4>
+                    <h4>Write to Us</h4>
                     <a href="mailto:headbase.tech@gmail.com">
                       headbase.tech@gmail.com
                     </a>
@@ -57,7 +57,7 @@ const Contactus = () => {
                     />
                   </div>
                   <div className="box-content">
-                    <h4>JUST CALL US</h4>
+                    <h4>Just Call Us</h4>
                     <a href="tel:91+ 7819942899">91+ 7819942899</a>
                   </div>
                 </div>
@@ -69,7 +69,7 @@ const Contactus = () => {
                     />
                   </div>
                   <div className="box-content">
-                    <h4>SKYPE WITH US</h4>
+                    <h4>SKYPE With Us</h4>
                     <p>rahulsatasiya / shiv_talk</p>
                   </div>
                 </div>
