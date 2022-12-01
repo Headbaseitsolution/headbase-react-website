@@ -394,8 +394,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
 }
 .mission {
   font-size: 60px;
@@ -713,6 +713,30 @@ ul.social-media {
 }
 
 @media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 22px;
+    line-height: 20px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
   .navbar .nav-btn {
     display: inline-block;
     right: 0;
